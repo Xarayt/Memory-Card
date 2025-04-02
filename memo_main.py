@@ -8,12 +8,6 @@ app = QApplication([])
 from menu_window import*
 from main_window import*
 
-window = QWidget()
-window.resize(1000,700)
-window.move(1000,299)
-window.setWindowTitle("Memory Card:")
-window.show()
-
 class Question():
     def __init__(self, question, answer, wrong_answer1, wrong_answer2, wrong_answer3):
         self.question = question
